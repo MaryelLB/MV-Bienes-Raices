@@ -1,0 +1,23 @@
+{
+    "name": "beaco/bienesraices_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "maryelLb",
+            "email": "MaryelLB1999@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.11",
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
